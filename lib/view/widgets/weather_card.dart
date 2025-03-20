@@ -49,7 +49,9 @@ class WeatherCard extends StatelessWidget {
             SizedBox(height: 10),
             if (nap != null)
               Text(
-                napok[now.weekday - 1 + nap!],
+                napok[now.weekday + nap! > 6
+                    ? now.weekday + nap! - 7
+                    : now.weekday + nap!],
                 style: TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
               ),
           ],

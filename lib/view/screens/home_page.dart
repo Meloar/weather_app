@@ -200,7 +200,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       state
                                           .weatherModelList[index + 1]
                                           .humidity,
-                                  nap: index + 1,
+                                  nap: index,
                                 ),
                               );
                             },

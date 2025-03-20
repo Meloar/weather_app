@@ -6,7 +6,7 @@ import 'package:weather_app/controller/geolocator/repository/geolocator_reposito
 import 'package:weather_app/controller/weather/bloc/weather_bloc.dart';
 import 'package:weather_app/controller/weather/data_provider/weather_data_provider.dart';
 import 'package:weather_app/controller/weather/repository/weather_repository.dart';
-import 'package:weather_app/home_page.dart';
+import 'package:weather_app/view/screens/home_page.dart';
 
 void main() {
   runApp(const MyApp());
